@@ -9,7 +9,7 @@ namespace Invector.vCharacterController
         [Header("Controller Input")]
         public string horizontalInput = "Horizontal";
         public string verticallInput = "Vertical";
-        public KeyCode jumpInput = KeyCode.Space;
+        public KeyCode plantInput = KeyCode.Space;
         public KeyCode strafeInput = KeyCode.Tab;
         public KeyCode sprintInput = KeyCode.LeftShift;
 
@@ -20,6 +20,9 @@ namespace Invector.vCharacterController
         [HideInInspector] public vThirdPersonController cc;
         [HideInInspector] public vThirdPersonCamera tpCamera;
         [HideInInspector] public Camera cameraMain;
+
+        [Header("Custom")]
+        public GameObject raindropSpawner;
 
         #endregion
 
@@ -78,7 +81,7 @@ namespace Invector.vCharacterController
             CameraInput();
             SprintInput();
             StrafeInput();
-            JumpInput();
+            PlantInput();
         }
 
         public virtual void MoveInput()
@@ -128,21 +131,29 @@ namespace Invector.vCharacterController
         }
 
         /// <summary>
-        /// Conditions to trigger the Jump animation & behavior
+        /// Conditions to trigger the planting of raindrops
         /// </summary>
         /// <returns></returns>
-        protected virtual bool JumpConditions()
+        protected virtual bool PlantConditions()
         {
-            return cc.isGrounded && cc.GroundAngle() < cc.slopeLimit && !cc.isJumping && !cc.stopMove;
+            return true;
         }
 
         /// <summary>
-        /// Input to trigger the Jump 
+        /// Input to trigger the planting of raindrops 
         /// </summary>
-        protected virtual void JumpInput()
+        protected virtual void PlantInput()
         {
-            if (Input.GetKeyDown(jumpInput) && JumpConditions())
-                cc.Jump();
+            if (Input.GetKeyDown(plantInput) && PlantConditions() && raindropSpawner)
+            {
+                Instantiate(
+                    raindropSpawner,
+                    new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 5, gameObject.transform.position.z + 1),
+                    Quaternion.identity
+                );
+
+            }
+                
         }
 
         #endregion       

@@ -1,29 +1,35 @@
-using System.Collections;
 using UnityEngine;
 
-public class ChangeColorOnCollision : MonoBehaviour
+public class ColorChangeOnCollision : MonoBehaviour
 {
+    // The object whose color we want to change
     private Renderer rend;
-    private Color originalColor;
-    public Color collisionColor = Color.red;
-    public float fadeTime = 2.0f;
 
-    private void Start()
+    // The original color of the object
+    private Color originalColor;
+
+    // The color to change to on collision
+    public Color collisionColor;
+
+    // The speed at which to fade back to the original color
+    public float fadeSpeed = 0.5f;
+
+    void Start()
     {
         rend = GetComponent<Renderer>();
+        // Store the original color of the object
         originalColor = rend.material.color;
-        Debug.Log(originalColor.ToString());
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void Update()
     {
-        StartCoroutine(ChangeColor(collisionColor));
+        // Fade back to the original color over time
+        rend.material.color = Color.Lerp(rend.material.color, originalColor, fadeSpeed * Time.deltaTime);
     }
 
-    private IEnumerator ChangeColor(Color color)
+    void OnCollisionEnter(Collision collision)
     {
-        rend.material.color = color;
-        yield return new WaitForSeconds(fadeTime);
-        rend.material.color = Color.Lerp(rend.material.color, originalColor, Time.deltaTime / fadeTime);
+        // Change the color on collision
+        rend.material.color = collisionColor;
     }
 }

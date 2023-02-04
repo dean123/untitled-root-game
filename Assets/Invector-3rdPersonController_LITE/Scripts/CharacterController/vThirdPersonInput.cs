@@ -136,7 +136,7 @@ namespace Invector.vCharacterController
         /// <returns></returns>
         protected virtual bool PlantConditions()
         {
-            return true;
+            return false; // Disabled for now
         }
 
         /// <summary>

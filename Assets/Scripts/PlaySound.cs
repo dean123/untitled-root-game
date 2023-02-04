@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlaySound : MonoBehaviour
 {
-    private AudioSource note;
+    private AudioSource track;
 
     // Start is called before the first frame update
     void Start()
     {
-        note = GetComponent<AudioSource>();
+        track = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -18,11 +18,19 @@ public class PlaySound : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (note)
+        if (other.gameObject.tag == "Source Inner")
         {
-            note.Play();
+            track.Play();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Source Inner")
+        {
+            track.Pause();
         }
     }
 }

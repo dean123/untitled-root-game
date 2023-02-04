@@ -23,18 +23,18 @@ public class RaindropSpawner : MonoBehaviour
             nextActionTime += interval;
             Vector3 pos = new Vector3(
                 gameObject.transform.position.x,
-                gameObject.transform.position.y + 5,
+                gameObject.transform.position.y + 10,
                 gameObject.transform.position.z
             );
             Instantiate(raindrop, pos, Quaternion.identity);
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Raindrop")
+        if (other.gameObject.tag == "Raindrop")
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
     }
 }

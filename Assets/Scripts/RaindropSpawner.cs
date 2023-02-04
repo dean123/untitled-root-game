@@ -7,12 +7,13 @@ public class RaindropSpawner : MonoBehaviour
     public GameObject raindrop;
     public float interval = 0.1f;
 
+    private AudioSource track;
     private float nextActionTime = 0.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        //
+        track = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,6 +36,7 @@ public class RaindropSpawner : MonoBehaviour
         if (other.gameObject.tag == "Raindrop")
         {
             Destroy(other.gameObject);
+            track.Play();
         }
     }
 }

@@ -21,7 +21,20 @@ public class RaindropSpawner : MonoBehaviour
         if (Time.time > nextActionTime)
         {
             nextActionTime += interval;
-            Instantiate(raindrop, gameObject.transform.position, Quaternion.identity);
+            Vector3 pos = new Vector3(
+                gameObject.transform.position.x,
+                gameObject.transform.position.y + 5,
+                gameObject.transform.position.z
+            );
+            Instantiate(raindrop, pos, Quaternion.identity);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Raindrop")
+        {
+            Destroy(collision.gameObject);
         }
     }
 }

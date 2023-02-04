@@ -8,6 +8,7 @@ public class UnitBehaviour : MonoBehaviour
     private GameObject pickupObject = null;
     private GameObject holdingObject = null;
     private NavMeshAgent agent;
+    private bool dropNextTime = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,14 +24,17 @@ public class UnitBehaviour : MonoBehaviour
             if (pickupObject && !holdingObject)
             {
                 holdingObject = pickupObject;
+                pickupObject = null;
+
                 holdingObject.transform.SetParent(transform);
                 holdingObject.transform.Translate(transform.forward * 0.5f);
             }
 
-            if (holdingObject)
+            if (holdingObject && dropNextTime)
             {
-                Debug.Log("Drop this");
-
+                holdingObject.transform.SetParent(null);
+                holdingObject = null;
+                dropNextTime = false;
             }
         }
     }
@@ -39,13 +43,20 @@ public class UnitBehaviour : MonoBehaviour
     {
         agent.destination = hit.point;
 
-        if (hit.transform.gameObject.layer == 6)
+        if (holdingObject)
         {
-            pickupObject = hit.transform.gameObject;
+            dropNextTime = true;
         }
         else
         {
-            pickupObject = null;
+            if (hit.transform.gameObject.layer == 6)
+            {
+                pickupObject = hit.transform.gameObject;
+            }
+            else
+            {
+                pickupObject = null;
+            }
         }
     }
 }

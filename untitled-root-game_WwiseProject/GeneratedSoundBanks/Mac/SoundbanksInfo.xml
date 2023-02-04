@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C0850A86-C1D5-03C2-500C-2C9DB6EA37B5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2410569202" Type="User" Language="SFX" Hash="{FE1D7E6B-18E8-0947-92CF-091CA0FEAF03}">
+			<ShortName>Main_SB</ShortName>
+			<Path>Main_SB.bnk</Path>
+			<Media>
+				<File Id="659207287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vs1-2fug.mid</ShortName>
+					<CachePath>SFX/vs1-2fug_F8B1D8A1.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="143394318" Name="Synth One" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="96444927" Name="PlayTest" DurationType="OneShot" DurationMin="288.44843" DurationMax="288.44843">
+					<MediaRefs>
+						<MediaRef Id="659207287"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="143394318"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1701400385" Name="StopTest" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FC2DB04B-1784-91A0-114B-708787D44C3C}</FileHash>
+</SoundBanksInfo>

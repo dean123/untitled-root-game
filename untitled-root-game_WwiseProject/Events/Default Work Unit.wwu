@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayTest" ID="{0C240309-CC5B-4AAD-ADF1-76A1C052E72A}">
+					<ChildrenList>
+						<Action Name="" ID="{D85089B0-CE9A-4FE8-BB4F-E072C39499B7}" ShortID="579889251">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEST" ID="{0D610237-4C93-461B-85AC-E66398F45BC6}" WorkUnitID="{7A416F7C-BC53-4F67-837E-4C08C30011C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopTest" ID="{8957A907-3F80-4493-A5CE-36F3279F712B}">
+					<ChildrenList>
+						<Action Name="" ID="{AB97979E-21B0-40A8-A5AA-40A1EEF938CF}" ShortID="612106781">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEST" ID="{0D610237-4C93-461B-85AC-E66398F45BC6}" WorkUnitID="{7A416F7C-BC53-4F67-837E-4C08C30011C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

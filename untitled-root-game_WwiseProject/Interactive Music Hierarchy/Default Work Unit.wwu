@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7A416F7C-BC53-4F67-837E-4C08C30011C5}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{7A416F7C-BC53-4F67-837E-4C08C30011C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="TEST" ID="{0D610237-4C93-461B-85AC-E66398F45BC6}" ShortID="97504650">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="320247.68533996"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="New Sound SFX" ID="{378FD8E2-73BC-47E1-9096-9A7988C3C62D}" WorkUnitID="{89E0A3BD-0A9E-441C-8F9C-11A948E0687C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="vs1-2fug" ID="{A0DEB433-A0BE-4700-8A47-4E74CA787BF7}" ShortID="361150618">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MidiFileSource Name="vs1-2fug" ID="{FCA3EC78-BF05-427F-B3E8-7B5BBB0BA269}" ShortID="659207287">
+									<Language>SFX</Language>
+									<MidiFile>vs1-2fug.mid</MidiFile>
+									<MediaIDList>
+										<MediaID ID="659207287"/>
+									</MediaIDList>
+								</MidiFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EAE360C2-6367-42B2-9D19-3B0E48DC8F62}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{CE400E8C-22EA-42B7-A3BA-CC0637348F21}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClipMidi Name="vs1-2fug" ID="{1DF4E096-E467-4BF1-B060-B9798B1D196E}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="288448.4375"/>
+																	</PropertyList>
+																	<MidiSourceRef Name="vs1-2fug" ID="{FCA3EC78-BF05-427F-B3E8-7B5BBB0BA269}"/>
+																</MusicClipMidi>
+															</Local>
+														</Reference>
+														<Reference>
+															<Local>
+																<MusicClipMidi Name="vs1-2fug" ID="{F7CF95E4-1B30-4125-B951-585FE843FEEE}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="288448.4375"/>
+																	</PropertyList>
+																	<MidiSourceRef Name="vs1-2fug" ID="{FCA3EC78-BF05-427F-B3E8-7B5BBB0BA269}"/>
+																</MusicClipMidi>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{7CEEB4A8-BF5A-4A8E-9844-3C125051C19E}">
+										<PropertyList>
+											<Property Name="TimeMs" Type="Real64" Value="244.822959642501"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{9FC837E5-BD5F-4E23-9650-D3FE4ABC7920}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="287423.636603077"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EBCCE9B1-00E8-442D-BC28-30429E62332E}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{EBCCE9B1-00E8-442D-BC28-30429E62332E}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="New Modulator LFO" ID="{3FDB5B10-7B92-43DF-8461-0C816EEA3B16}" ShortID="119599362">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="1.18"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

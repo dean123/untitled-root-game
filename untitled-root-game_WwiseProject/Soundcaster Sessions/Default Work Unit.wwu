@@ -25,10 +25,10 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="seq_06" ID="{FD65AA9D-E3F5-4A39-B3E4-17F3B7D3A949}"/>
+						<CurrentSwitchRef Name="seq_15" ID="{80E9D598-8971-4546-B7D6-59974EBD359B}"/>
 						<CurrentSwitchRef Name="e_piano" ID="{2536C4AF-9B14-47FE-9D3F-29B4AF2316C9}"/>
 						<CurrentSwitchRef Name="waterdrops" ID="{A24F4009-6C15-4E8F-BA51-83BA71401E7B}"/>
-						<CurrentSwitchRef Name="key_C" ID="{4641F27E-59A5-4DF4-8132-D9260F111ADE}"/>
+						<CurrentSwitchRef Name="key_A" ID="{486D6DEC-DDEE-4592-B9DE-852F685A66DB}"/>
 						<CurrentSwitchRef Name="seq_15" ID="{B1B4F4A6-9AA1-448C-AD22-F60EAE89B501}"/>
 						<CurrentSwitchRef Name="seq_01" ID="{0AA6F2D7-BEBF-46A6-A8BC-A674D8232C5A}"/>
 						<CurrentSwitchRef Name="glock" ID="{07E7A596-2CC7-4DBD-A757-11ECB5E10B16}"/>

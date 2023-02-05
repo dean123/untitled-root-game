@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9e764f0db624442bb08d6706bf8130, type: 3}
+  m_Name: 8957A907-3F80-4493-A5CE-36F3279F712B
+  m_EditorClassIdentifier: 
+  objectName: StopTest
+  id: 1701400385
+  guid: 8957A907-3F80-4493-A5CE-36F3279F712B

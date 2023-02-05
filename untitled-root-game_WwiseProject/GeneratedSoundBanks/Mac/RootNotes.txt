@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	869611322	play_rootNote			\Default Work Unit\play_rootNote	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2078097994	music_key			\Default Work Unit\music_key	
+
+Switch	ID	Name	Switch Group			Notes
+	1238866491	key_Cs	music_key			
+	1255644089	key_Bb	music_key			
+	1272421644	key_Ab	music_key			
+	1322754644	key_Fs	music_key			
+	1339532248	key_Eb	music_key			
+	2614129992	key_empty	music_key			
+	3865414040	key_C	music_key			
+	3865414041	key_B	music_key			
+	3865414042	key_A	music_key			
+	3865414044	key_G	music_key			
+	3865414045	key_F	music_key			
+	3865414046	key_E	music_key			
+	3865414047	key_D	music_key			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100703181	root_F#	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_F#_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_F#\root_F#\root_F#		7761692
+	103791724	root_A	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_A_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_A\root_A\root_A		7761692
+	126398351	root_D#	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_D#_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_D#\root_D#\root_D#		7761692
+	261972025	root_F	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_F_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_F\root_F\root_F		7761692
+	288334345	root_D	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_D_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_D\root_D\root_D		7761692
+	307047052	root_G#	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_G#_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_G#\root_G#\root_G#		7761692
+	329108754	root_G	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_G_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_G\root_G\root_G		7761692
+	830587981	root_C#	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_C#_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_C#\root_C#\root_C#		7761692
+	834685241	root_E	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_E_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_E\root_E\root_E		7761692
+	889272668	root_B	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_B_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_B\root_B\root_B		7761692
+	910990864	root_C	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_C_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_C\root_C\root_C		7761692
+	1058295316	root_Bb	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Roots\root_Bb_A224571F.wem		\Interactive Music Hierarchy\Default Work Unit\Key_Switch\rootPlay_Bb\root_Bb\root_Bb		7761692
+

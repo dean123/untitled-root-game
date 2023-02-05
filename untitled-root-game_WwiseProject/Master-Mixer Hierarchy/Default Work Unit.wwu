@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{AC5510D0-01B2-4A74-9E48-B25FDAF9CCD7}" WorkUnitID="{0F4B105C-7229-46CE-BC8E-90A0E779BCD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="E-PianoBus" ID="{D4A94B51-7D8A-4D46-8EBB-29018ECECFE9}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="GlockBus" ID="{CB74686C-EA48-443F-A6F8-7D4CE2AB2885}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="MarimbaBus" ID="{B8AB80E4-C342-4CE2-95D6-3665FB233FA3}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="WaterBus" ID="{DE78BC30-D630-4C73-B49C-A81A6D8F65EF}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="DroneBus" ID="{C77909B9-7A8C-4C7C-8C3D-47A5A91C7080}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{62F3D2BF-5348-473F-8688-D099CB7EEE40}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

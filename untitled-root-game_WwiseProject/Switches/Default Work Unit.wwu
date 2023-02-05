@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C735496D-B84C-4D62-AFC9-29DCA519A53A}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{C735496D-B84C-4D62-AFC9-29DCA519A53A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="music_key" ID="{020B4767-6E5E-43D9-AB12-77F51B2FBAC3}">
+					<ChildrenList>
+						<Switch Name="key_C" ID="{4641F27E-59A5-4DF4-8132-D9260F111ADE}"/>
+						<Switch Name="key_Cs" ID="{6A9791EE-80BD-4CC6-B8B3-6C036BB9BE0E}"/>
+						<Switch Name="key_D" ID="{9B20A777-F6DF-451E-931E-420164A734C8}"/>
+						<Switch Name="key_A" ID="{486D6DEC-DDEE-4592-B9DE-852F685A66DB}"/>
+						<Switch Name="key_E" ID="{BFD1173A-2813-4C38-AA53-AB42115BE625}"/>
+						<Switch Name="key_B" ID="{41742981-3054-4270-8C14-68E19B37E529}"/>
+						<Switch Name="key_Fs" ID="{58844875-0A48-412F-8AE6-7333DBC4E520}"/>
+						<Switch Name="key_Eb" ID="{DDC628D6-AE39-4002-BAC1-BEED3FAC33BE}"/>
+						<Switch Name="key_Bb" ID="{3E2E04AC-40F3-4470-B290-6942971BD810}"/>
+						<Switch Name="key_F" ID="{54AC7457-6024-42B4-AD32-AB37E84AC1FA}"/>
+						<Switch Name="key_Ab" ID="{5C201A5D-DFD8-4666-8D18-AC8AEA49E92A}"/>
+						<Switch Name="key_G" ID="{FF81D2FB-9258-4AFC-8E79-8B60CC87A8A6}"/>
+						<Switch Name="key_empty" ID="{206E77FB-13F0-40A2-9C6B-F7C2C629F11E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer1_sequence" ID="{1981B080-4317-4930-A34D-11F674042360}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{0AA6F2D7-BEBF-46A6-A8BC-A674D8232C5A}"/>
+						<Switch Name="seq_02" ID="{BC9BB599-445D-4244-93FC-5E3D1F7A34AF}"/>
+						<Switch Name="seq_03" ID="{94B92738-41C4-46F9-AA39-1BF6CA50CB41}"/>
+						<Switch Name="seq_04" ID="{CB95B636-C2B9-4B1A-8877-52C67D17CED7}"/>
+						<Switch Name="seq_05" ID="{C937D605-12DE-436D-BAC4-67EE189D252C}"/>
+						<Switch Name="seq_06" ID="{C5B2D41E-486E-402B-B325-84F2B88EAE93}"/>
+						<Switch Name="seq_07" ID="{2C043947-6200-43AF-ADA8-AE98C84A64E8}"/>
+						<Switch Name="seq_08" ID="{BFEDC44C-BD5D-496A-B543-13D03760AC39}"/>
+						<Switch Name="seq_09" ID="{D2FF4632-DF13-437E-9005-E19DF88058E8}"/>
+						<Switch Name="seq_10" ID="{07065A56-960B-468C-B044-E8B4B43D3E88}"/>
+						<Switch Name="seq_11" ID="{795E7751-BA6B-43EB-896C-852AC97280A3}"/>
+						<Switch Name="seq_12" ID="{FC7B71CE-A737-4735-9827-87DCBB258FDA}"/>
+						<Switch Name="seq_13" ID="{C93E73F9-2E8E-4F9E-9D17-9123A5C9280F}"/>
+						<Switch Name="seq_14" ID="{25626A7B-777A-4376-BC75-019F3D7EF8AA}"/>
+						<Switch Name="seq_15" ID="{D1358657-C75A-441D-9E01-A8E583A3CEEC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer2_instrument" ID="{D07A5BC8-D2BE-418E-B0C9-E097B488E9B8}">
+					<ChildrenList>
+						<Switch Name="glock" ID="{8BED66F4-3A32-40BB-8FA0-9AC5601FA26F}"/>
+						<Switch Name="marimba" ID="{0677D33D-2E44-4962-8AC9-2443472777C4}"/>
+						<Switch Name="e_piano" ID="{449ADB59-C85D-4426-8939-1CF090AB2BC2}"/>
+						<Switch Name="waterdrops" ID="{A24F4009-6C15-4E8F-BA51-83BA71401E7B}"/>
+						<Switch Name="no_instrument" ID="{10360B73-3F5A-498C-B658-C4F7060F39DB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer1_instrument" ID="{780257C2-2288-4082-99B4-9FF5351A662C}">
+					<ChildrenList>
+						<Switch Name="glock" ID="{1573722D-3D6C-41E4-8644-34B74B2DC7C7}"/>
+						<Switch Name="marimba" ID="{50B498E0-22EB-44AC-AB6E-B70AD9AFEA08}"/>
+						<Switch Name="e_piano" ID="{2536C4AF-9B14-47FE-9D3F-29B4AF2316C9}"/>
+						<Switch Name="waterdrops" ID="{523A1C6F-C0B7-4813-9AF4-0ECD6BE80FD0}"/>
+						<Switch Name="no_instrument" ID="{0827CE68-49F4-4130-ADD6-0EFC31C67FA3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer3_instrument" ID="{98D6493A-FE71-4C2F-9303-B9B946F5D807}">
+					<ChildrenList>
+						<Switch Name="glock" ID="{07E7A596-2CC7-4DBD-A757-11ECB5E10B16}"/>
+						<Switch Name="marimba" ID="{8FD08F36-0AC1-43FA-996B-1EDAAE9C1012}"/>
+						<Switch Name="e_piano" ID="{729A834E-7456-439D-8F41-8042F85C160F}"/>
+						<Switch Name="waterdrops" ID="{BA129E27-4E94-4C2E-9C18-83BA600D448A}"/>
+						<Switch Name="no_instrument" ID="{1D8FB092-3679-4BC4-9C54-23908A318C42}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer2_sequence" ID="{E5686AD1-01AA-48BA-9988-1A6738536B55}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{EDB11D08-0562-49DE-92A2-827E3463C817}"/>
+						<Switch Name="seq_02" ID="{F65D1B80-D00D-46D2-9D30-F81715A5D656}"/>
+						<Switch Name="seq_03" ID="{521676F0-CE65-45BE-8D87-251702BA5462}"/>
+						<Switch Name="seq_04" ID="{5EEB9EB7-2D26-49D4-9017-ACEBAC5F1A1E}"/>
+						<Switch Name="seq_05" ID="{B501E16C-7529-4DF8-9F48-EE2A718FA68B}"/>
+						<Switch Name="seq_06" ID="{F1F76F6C-55B0-4A8F-B9C0-F20DB36ED288}"/>
+						<Switch Name="seq_07" ID="{EE9861C9-C0ED-4AE4-A8CD-98F5838D985A}"/>
+						<Switch Name="seq_08" ID="{67343CBC-DB63-4E84-97E1-D0AD60A00A26}"/>
+						<Switch Name="seq_09" ID="{3090EFE5-F356-42D3-AD24-EAC590AA7AD6}"/>
+						<Switch Name="seq_10" ID="{E7DB2600-CEF7-4813-9DBE-0D9EE70F68D6}"/>
+						<Switch Name="seq_11" ID="{40DF7864-6DBC-4995-93B1-31196E26AFE2}"/>
+						<Switch Name="seq_12" ID="{A8EF0F89-5A50-4B59-B1BC-C9283AC9A1BD}"/>
+						<Switch Name="seq_13" ID="{46AEB082-0993-4671-AC30-B1A7CB562B52}"/>
+						<Switch Name="seq_14" ID="{3765E564-6885-4336-93E8-CDB15566FC04}"/>
+						<Switch Name="seq_15" ID="{B1B4F4A6-9AA1-448C-AD22-F60EAE89B501}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer3_sequence" ID="{81BB25AB-455C-407C-A979-F44EC080191D}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{3307960B-C778-4C35-8A4D-87A069A91A48}"/>
+						<Switch Name="seq_02" ID="{B0FD1280-1DB0-40DB-84B8-85FC75B4A4AB}"/>
+						<Switch Name="seq_03" ID="{0A4EC0F5-960D-4A42-8624-39A71997BB1B}"/>
+						<Switch Name="seq_04" ID="{FC3EC21B-4BAF-4113-B125-89BA4376F0EF}"/>
+						<Switch Name="seq_05" ID="{870CFE99-1CF8-47EC-8B08-2EDE48837B89}"/>
+						<Switch Name="seq_06" ID="{FD65AA9D-E3F5-4A39-B3E4-17F3B7D3A949}"/>
+						<Switch Name="seq_07" ID="{DCF61AFD-37C7-4B82-A148-2C032911206A}"/>
+						<Switch Name="seq_08" ID="{7064574A-AEC0-487C-A02C-D1FE17802EC8}"/>
+						<Switch Name="seq_09" ID="{5502BC1D-41E2-4314-ABFE-20B901BCB37E}"/>
+						<Switch Name="seq_10" ID="{8016DB9E-4FCD-47DC-AE82-DA33CFFA0BDF}"/>
+						<Switch Name="seq_11" ID="{64EE453C-BA1F-422D-97F2-2078C90DC456}"/>
+						<Switch Name="seq_12" ID="{2613CD24-095A-4B21-9B32-E312218B0E1D}"/>
+						<Switch Name="seq_13" ID="{CB86930C-BF97-4A8F-AF02-51A51BC43808}"/>
+						<Switch Name="seq_14" ID="{D7B8BE2E-91E4-4892-8FEF-D549AFAA4DC0}"/>
+						<Switch Name="seq_15" ID="{80E9D598-8971-4546-B7D6-59974EBD359B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

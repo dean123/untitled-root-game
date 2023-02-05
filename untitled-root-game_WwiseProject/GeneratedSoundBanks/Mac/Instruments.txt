@@ -1,0 +1,219 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3970205736	play_layer3			\Default Work Unit\play_layer3	
+	3970205737	play_layer2			\Default Work Unit\play_layer2	
+	3970205738	play_layer1			\Default Work Unit\play_layer1	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	53664594	layer2_instrument			\Default Work Unit\layer2_instrument	
+	1002001839	layer1_instrument			\Default Work Unit\layer1_instrument	
+	1210835747	layer1_sequence			\Default Work Unit\layer1_sequence	
+	1579504537	layer3_instrument			\Default Work Unit\layer3_instrument	
+	2078097994	music_key			\Default Work Unit\music_key	
+	2432169145	layer3_sequence			\Default Work Unit\layer3_sequence	
+	2982534782	layer2_sequence			\Default Work Unit\layer2_sequence	
+
+Switch	ID	Name	Switch Group			Notes
+	1758217356	no_instrument	layer2_instrument			
+	2851058149	glock	layer2_instrument			
+	3091781674	marimba	layer2_instrument			
+	3130365160	e_piano	layer2_instrument			
+	3888338336	waterdrops	layer2_instrument			
+	1758217356	no_instrument	layer1_instrument			
+	2851058149	glock	layer1_instrument			
+	3091781674	marimba	layer1_instrument			
+	3130365160	e_piano	layer1_instrument			
+	3888338336	waterdrops	layer1_instrument			
+	2951722506	seq_14	layer1_sequence			
+	2951722507	seq_15	layer1_sequence			
+	2951722508	seq_12	layer1_sequence			
+	2951722509	seq_13	layer1_sequence			
+	2951722510	seq_10	layer1_sequence			
+	2951722511	seq_11	layer1_sequence			
+	2968500192	seq_01	layer1_sequence			
+	2968500194	seq_03	layer1_sequence			
+	2968500195	seq_02	layer1_sequence			
+	2968500196	seq_05	layer1_sequence			
+	2968500197	seq_04	layer1_sequence			
+	2968500198	seq_07	layer1_sequence			
+	2968500199	seq_06	layer1_sequence			
+	2968500200	seq_09	layer1_sequence			
+	2968500201	seq_08	layer1_sequence			
+	1758217356	no_instrument	layer3_instrument			
+	2851058149	glock	layer3_instrument			
+	3091781674	marimba	layer3_instrument			
+	3130365160	e_piano	layer3_instrument			
+	3888338336	waterdrops	layer3_instrument			
+	1238866491	key_Cs	music_key			
+	1255644089	key_Bb	music_key			
+	1272421644	key_Ab	music_key			
+	1322754644	key_Fs	music_key			
+	1339532248	key_Eb	music_key			
+	2614129992	key_empty	music_key			
+	3865414040	key_C	music_key			
+	3865414041	key_B	music_key			
+	3865414042	key_A	music_key			
+	3865414044	key_G	music_key			
+	3865414045	key_F	music_key			
+	3865414046	key_E	music_key			
+	3865414047	key_D	music_key			
+	2951722506	seq_14	layer3_sequence			
+	2951722507	seq_15	layer3_sequence			
+	2951722508	seq_12	layer3_sequence			
+	2951722509	seq_13	layer3_sequence			
+	2951722510	seq_10	layer3_sequence			
+	2951722511	seq_11	layer3_sequence			
+	2968500192	seq_01	layer3_sequence			
+	2968500194	seq_03	layer3_sequence			
+	2968500195	seq_02	layer3_sequence			
+	2968500196	seq_05	layer3_sequence			
+	2968500197	seq_04	layer3_sequence			
+	2968500198	seq_07	layer3_sequence			
+	2968500199	seq_06	layer3_sequence			
+	2968500200	seq_09	layer3_sequence			
+	2968500201	seq_08	layer3_sequence			
+	2951722506	seq_14	layer2_sequence			
+	2951722507	seq_15	layer2_sequence			
+	2951722508	seq_12	layer2_sequence			
+	2951722509	seq_13	layer2_sequence			
+	2951722510	seq_10	layer2_sequence			
+	2951722511	seq_11	layer2_sequence			
+	2968500192	seq_01	layer2_sequence			
+	2968500194	seq_03	layer2_sequence			
+	2968500195	seq_02	layer2_sequence			
+	2968500196	seq_05	layer2_sequence			
+	2968500197	seq_04	layer2_sequence			
+	2968500198	seq_07	layer2_sequence			
+	2968500199	seq_06	layer2_sequence			
+	2968500200	seq_09	layer2_sequence			
+	2968500201	seq_08	layer2_sequence			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	254094166	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Silence\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4224816	A_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\A_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\A_seq06_loop\A_seq06\A_seq06		170
+	29070809	E_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\E_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\E_seq11_loop\E_seq11\E_seq11		108
+	29989960	A_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\A_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\A_seq11_loop\A_seq11\A_seq11		108
+	30061998	sfx_waterdrop	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\sfx_drop_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\sfx_waterdrop		33170
+	37786331	A_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\A_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\A_seq15_loop\A_seq15\A_seq15		72
+	39837407	E_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\E_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\E_seq07_loop\E_seq07\E_seq07		63
+	44553255	D_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\D_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\D_seq08_loop\D_seq08\D_seq08		36
+	51927084	epiano_C5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_C5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_C5		1411292
+	59614086	C_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\C_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\C_seq14_loop\C_seq14\C_seq14		45
+	60410278	epiano_F4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_F4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_F4		1411292
+	74734851	epiano_G#4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_G#4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_G#4		1411292
+	82666913	D_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\D_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\D_seq12_loop\D_seq12\D_seq12		218
+	82739154	G_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\G_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\G_seq01_loop\G_seq01\G_seq01		186
+	85143873	C_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\C_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\C_seq10_loop\C_seq10\C_seq10		147
+	85539292	E_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\E_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\E_seq15_loop\E_seq15\E_seq15		72
+	91751609	B_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\B_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\B_seq14_loop\B_seq14\B_seq14		45
+	91803009	D_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\D_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\D_seq13_loop\D_seq13\D_seq13		94
+	111270161	D_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\D_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\D_seq11_loop\D_seq11\D_seq11		108
+	123062408	epiano_D#4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_D#4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_D#4		1411292
+	127390712	mrba_G3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_G3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_G3		1411292
+	138630106	mrba_G5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_G5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_G5		1411292
+	140208600	G_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\G_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\G_seq14_loop\G_seq14\G_seq14		45
+	147042440	D_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\D_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\D_seq15_loop\D_seq15\D_seq15		72
+	158933107	A_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\A_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\A_seq10_loop\A_seq10\A_seq10		147
+	162292816	G_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\G_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\G_seq10_loop\G_seq10\G_seq10		147
+	170626897	B_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\B_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\B_seq04_loop\B_seq04\B_seq04		37
+	173554074	D_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\D_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\D_seq02_loop\D_seq02\D_seq02		78
+	178173738	C_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\C_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\C_seq02_loop\C_seq02\C_seq02		78
+	179730180	epiano_D#5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_D#5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_D#5		1411292
+	185131234	E_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\E_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\E_seq08_loop\E_seq08\E_seq08		36
+	193613933	B_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\B_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\B_seq08_loop\B_seq08\B_seq08		36
+	197453421	C_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\C_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\C_seq04_loop\C_seq04\C_seq04		37
+	199563501	G_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\G_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\G_seq11_loop\G_seq11\G_seq11		108
+	213764744	E_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\E_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\E_seq02_loop\E_seq02\E_seq02		78
+	223215350	B_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\B_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\B_seq03_loop\B_seq03\B_seq03		55
+	225933696	mrba_A4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_A4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_A4		1411292
+	238537507	A_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\A_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\A_seq01_loop\A_seq01\A_seq01		186
+	240822373	C_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\C_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\C_seq05_loop\C_seq05\C_seq05		218
+	251117289	G_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\G_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\G_seq15_loop\G_seq15\G_seq15		72
+	254969474	mrba_E5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_E5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_E5		1411292
+	270491395	C_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\C_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\C_seq15_loop\C_seq15\C_seq15		72
+	288744832	mrba_C4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_C4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_C4		1411292
+	314962865	mrba_E4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_E4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_E4		1411292
+	315454233	glock_C5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_C5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_C5		1411292
+	320241007	D_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\D_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\D_seq10_loop\D_seq10\D_seq10		147
+	330785993	epiano_G#3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_G#3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_G#3		1411292
+	332032398	B_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\B_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\B_seq11_loop\B_seq11\B_seq11		108
+	335252180	G_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\G_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\G_seq04_loop\G_seq04\G_seq04		37
+	341560925	mrba_C3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_C3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_C3		1411292
+	358857638	mrba_A3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_A3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_A3		1411292
+	367118526	G_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\G_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\G_seq13_loop\G_seq13\G_seq13		94
+	386935773	C_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\C_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\C_seq01_loop\C_seq01\C_seq01		186
+	392478185	C_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\C_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\C_seq13_loop\C_seq13\C_seq13		94
+	406116764	A_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\A_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\A_seq04_loop\A_seq04\A_seq04		37
+	412230016	C_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\C_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\C_seq07_loop\C_seq07\C_seq07		63
+	417168433	B_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\B_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\B_seq01_loop\B_seq01\B_seq01		186
+	443853686	E_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\E_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\E_seq06_loop\E_seq06\E_seq06		170
+	448964844	mrba_C5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_C5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_C5		1411292
+	463898299	D_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\D_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\D_seq14_loop\D_seq14\D_seq14		45
+	471648442	epiano_F5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_F5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_F5		1411292
+	474874553	D_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\D_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\D_seq03_loop\D_seq03\D_seq03		55
+	480691542	glock_G3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_G3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_G3		1411292
+	493240416	G_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\G_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\G_seq02_loop\G_seq02\G_seq02		78
+	523661496	E_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\E_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\E_seq10_loop\E_seq10\E_seq10		147
+	525698524	glock_E4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_E4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_E4		1411292
+	530546971	D_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\D_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\D_seq01_loop\D_seq01\D_seq01		186
+	536520977	mrba_G4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_G4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_G4		1411292
+	541141077	A_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\A_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\A_seq09_loop\A_seq09\A_seq09		226
+	548726345	C_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\C_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\C_seq03_loop\C_seq03\C_seq03		55
+	562163456	epiano_G#2	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_G#2_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_G#2		1411292
+	577671269	A_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\A_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\A_seq08_loop\A_seq08\A_seq08		36
+	597940534	E_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\E_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\E_seq13_loop\E_seq13\E_seq13		94
+	602119564	D_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\D_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\D_seq06_loop\D_seq06\D_seq06		170
+	615253334	G_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\G_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\G_seq05_loop\G_seq05\G_seq05		218
+	615457809	B_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\B_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\B_seq09_loop\B_seq09\B_seq09		226
+	616406415	glock_A3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_A3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_A3		1411292
+	618509863	A_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\A_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\A_seq03_loop\A_seq03\A_seq03		55
+	625158092	A_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\A_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\A_seq12_loop\A_seq12\A_seq12		218
+	635253877	C_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\C_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\C_seq08_loop\C_seq08\C_seq08		36
+	639638601	C_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\C_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\C_seq12_loop\C_seq12\C_seq12		218
+	657214707	A_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\A_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\A_seq05_loop\A_seq05\A_seq05		218
+	680603502	B_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\B_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\B_seq05_loop\B_seq05\B_seq05		218
+	683724501	mrba_E3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_E3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_E3		1411292
+	696814744	G_seq08	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_08\G_seq08_FA4B4AE3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_08\G_seq08_loop\G_seq08\G_seq08		36
+	704988100	G_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\G_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\G_seq07_loop\G_seq07\G_seq07		63
+	738443333	A_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\A_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\A_seq07_loop\A_seq07\A_seq07		63
+	741002615	G_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\G_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\G_seq03_loop\G_seq03\G_seq03		55
+	743650599	epiano_F3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_F3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_F3		1411292
+	745023380	G_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\G_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\G_seq12_loop\G_seq12\G_seq12		218
+	745910276	B_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\B_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\B_seq12_loop\B_seq12\B_seq12		218
+	746639962	B_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\B_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\B_seq13_loop\B_seq13\B_seq13		94
+	766443799	glock_A4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_A4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_A4		1411292
+	791657931	B_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\B_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\B_seq07_loop\B_seq07\B_seq07		63
+	793260019	C_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\C_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\C_seq06_loop\C_seq06\C_seq06		170
+	795897289	D_seq07	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_07\D_seq07_F03C1E95.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_07\D_seq07_loop\D_seq07\D_seq07		63
+	798918371	B_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\B_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\B_seq06_loop\B_seq06\B_seq06		170
+	799682863	G_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\G_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\G_seq09_loop\G_seq09\G_seq09		226
+	811772386	mrba_A5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_A5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_A5		1411292
+	813373186	A_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\A_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\A_seq14_loop\A_seq14\A_seq14		45
+	840084349	epiano_F#2	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_F#2_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_F#2		705692
+	849207796	C_seq11	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_11\C_seq11_65C7183D.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_11\C_seq11_loop\C_seq11\C_seq11		108
+	851912209	A_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\A_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\A_seq02_loop\A_seq02\A_seq02		78
+	852275355	E_seq12	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_12\E_seq12_47B9497F.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_12\E_seq12_loop\E_seq12\E_seq12		218
+	854991091	E_seq03	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_03\E_seq03_3DE11CA3.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_03\E_seq03_loop\E_seq03\E_seq03		55
+	864968612	B_seq02	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_02\B_seq02_3D32EBEC.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_02\B_seq02_loop\B_seq02\B_seq02		78
+	883821015	E_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\E_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\E_seq04_loop\E_seq04\E_seq04		37
+	924256154	epiano_D#3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_D#3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_D#3		1411292
+	927228204	C_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\C_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\C_seq09_loop\C_seq09\C_seq09		226
+	935624632	glock_C4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_C4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_C4		1411292
+	950623004	E_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\E_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\E_seq05_loop\E_seq05\E_seq05		218
+	957238351	E_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\E_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\E_seq09_loop\E_seq09\E_seq09		226
+	962213607	E_seq14	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_14\E_seq14_0A9AD33B.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_14\E_seq14_loop\E_seq14\E_seq14		45
+	964547214	B_seq15	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_15\B_seq15_FD8440E2.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_15\B_seq15_loop\B_seq15\B_seq15		72
+	974225095	E_seq01	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_01\E_seq01_1D7BDE07.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_01\E_seq01_loop\E_seq01\E_seq01		186
+	987207812	A_seq13	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_13\A_seq13_256FCF88.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_13\A_seq13_loop\A_seq13\A_seq13		94
+	989081013	D_seq05	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_05\D_seq05_E45F8749.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_05\D_seq05_loop\D_seq05\D_seq05		218
+	992024931	mrba_A#2	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Marimba\mrba_A#2_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Marimba\mrba_A#2		1411292
+	992105579	B_seq10	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_10\B_seq10_F5F475DB.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_10\B_seq10_loop\B_seq10\B_seq10		147
+	993250056	D_seq04	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_04\D_seq04_AE9DE648.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_04\D_seq04_loop\D_seq04\D_seq04		37
+	997250300	glock_E5	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_E5_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_E5		1411292
+	1006039519	glock_G4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\Glockenspiel\glock_G4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\Glockenspiel\glock_G4		1411292
+	1016214808	G_seq06	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_06\G_seq06_EC8C8A65.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_06\G_seq06_loop\G_seq06\G_seq06		170
+	1035148131	D_seq09	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\seq_09\D_seq09_32611824.wem		\Interactive Music Hierarchy\Default Work Unit\Instruments\MusicEvent\Layer3\E-Piano\seq_09\D_seq09_loop\D_seq09\D_seq09		226
+	1052994538	epiano_C4	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_C4_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_C4		1411292
+	1068616762	epiano_C3	C:\Users\darkg\Documents\GitHub\untitled-root-game\untitled-root-game_WwiseProject\.cache\Mac\SFX\E-Piano\epiano_C3_E5FEFA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Samplers\E-Piano\epiano_C3		1411292
+

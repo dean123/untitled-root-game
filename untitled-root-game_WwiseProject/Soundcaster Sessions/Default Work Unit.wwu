@@ -6,18 +6,32 @@
 				<SoundcasterSession Name="SimpleTest" ID="{028A21BC-9FC3-416C-9C49-C4243CD66A4E}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="PlayTest" ID="{0C240309-CC5B-4AAD-ADF1-76A1C052E72A}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
+							<ObjectRef Name="play_root" ID="{4A20691C-6E4C-4457-9147-5963060075BE}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="StopTest" ID="{8957A907-3F80-4493-A5CE-36F3279F712B}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
+							<ObjectRef Name="play_layer1" ID="{434758A7-4017-4EB7-9F0E-6B9E9B6F857B}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_layer2" ID="{A66C8DA6-97F5-4A5A-9FFE-EEC33989BDBE}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_layer3" ID="{A071B0B3-5639-43F5-943F-1A7BC287FA4D}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="key_G" ID="{FF81D2FB-9258-4AFC-8E79-8B60CC87A8A6}"/>
+						<CurrentSwitchRef Name="seq_06" ID="{FD65AA9D-E3F5-4A39-B3E4-17F3B7D3A949}"/>
+						<CurrentSwitchRef Name="e_piano" ID="{2536C4AF-9B14-47FE-9D3F-29B4AF2316C9}"/>
+						<CurrentSwitchRef Name="waterdrops" ID="{A24F4009-6C15-4E8F-BA51-83BA71401E7B}"/>
+						<CurrentSwitchRef Name="key_C" ID="{4641F27E-59A5-4DF4-8132-D9260F111ADE}"/>
+						<CurrentSwitchRef Name="seq_15" ID="{B1B4F4A6-9AA1-448C-AD22-F60EAE89B501}"/>
+						<CurrentSwitchRef Name="seq_01" ID="{0AA6F2D7-BEBF-46A6-A8BC-A674D8232C5A}"/>
+						<CurrentSwitchRef Name="glock" ID="{07E7A596-2CC7-4DBD-A757-11ECB5E10B16}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

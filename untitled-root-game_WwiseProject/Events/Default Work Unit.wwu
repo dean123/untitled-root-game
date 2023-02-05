@@ -29,6 +29,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_layer1" ID="{434758A7-4017-4EB7-9F0E-6B9E9B6F857B}">
+					<ChildrenList>
+						<Action Name="" ID="{1A6EEA49-D7F1-4FBC-A0A9-E37450A9ED6F}" ShortID="33527746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer1" ID="{0FD50CFB-7D1D-417F-A12E-E6A9B9D71C0E}" WorkUnitID="{88DFDBEF-2F61-45E9-9624-B911480DD67E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_root" ID="{4A20691C-6E4C-4457-9147-5963060075BE}">
+					<ChildrenList>
+						<Action Name="" ID="{4F1A2258-4AB8-4FF3-948B-2AC6F24312C6}" ShortID="892930588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Key_Switch" ID="{749685FC-2793-46A8-83CE-6238386B6CF7}" WorkUnitID="{7A416F7C-BC53-4F67-837E-4C08C30011C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_layer2" ID="{A66C8DA6-97F5-4A5A-9FFE-EEC33989BDBE}">
+					<ChildrenList>
+						<Action Name="" ID="{DA761288-BF61-47FF-A7B4-14E939CE3FB5}" ShortID="295510212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer2" ID="{C70FF259-782E-4BBE-841C-16727BDE6571}" WorkUnitID="{88DFDBEF-2F61-45E9-9624-B911480DD67E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_layer3" ID="{A071B0B3-5639-43F5-943F-1A7BC287FA4D}">
+					<ChildrenList>
+						<Action Name="" ID="{58FC553C-0A58-47C0-8E3B-FAA7422E0121}" ShortID="1022487731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer3" ID="{E6FAB668-A452-4337-BE5D-3E095C7D1380}" WorkUnitID="{88DFDBEF-2F61-45E9-9624-B911480DD67E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

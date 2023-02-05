@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="key_empty" ID="{206E77FB-13F0-40A2-9C6B-F7C2C629F11E}"/>
+						<CurrentSwitchRef Name="key_G" ID="{FF81D2FB-9258-4AFC-8E79-8B60CC87A8A6}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

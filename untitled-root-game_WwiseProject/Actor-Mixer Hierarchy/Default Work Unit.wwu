@@ -123,6 +123,7 @@
 						<ActiveSource Name="Synth One" ID="{16BBB4C4-278B-4CA0-BF5D-1B513CDBD0EE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="Instruments" ID="{BE3FB8C0-482E-4FFE-857C-19D9847E9574}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

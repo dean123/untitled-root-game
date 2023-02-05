@@ -20,6 +20,63 @@
 						<Switch Name="key_empty" ID="{206E77FB-13F0-40A2-9C6B-F7C2C629F11E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="layer1_sequence" ID="{1981B080-4317-4930-A34D-11F674042360}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{0AA6F2D7-BEBF-46A6-A8BC-A674D8232C5A}"/>
+						<Switch Name="seq_02" ID="{BC9BB599-445D-4244-93FC-5E3D1F7A34AF}"/>
+						<Switch Name="seq_03" ID="{94B92738-41C4-46F9-AA39-1BF6CA50CB41}"/>
+						<Switch Name="seq_04" ID="{CB95B636-C2B9-4B1A-8877-52C67D17CED7}"/>
+						<Switch Name="seq_05" ID="{C937D605-12DE-436D-BAC4-67EE189D252C}"/>
+						<Switch Name="seq_06" ID="{C5B2D41E-486E-402B-B325-84F2B88EAE93}"/>
+						<Switch Name="seq_07" ID="{2C043947-6200-43AF-ADA8-AE98C84A64E8}"/>
+						<Switch Name="seq_08" ID="{BFEDC44C-BD5D-496A-B543-13D03760AC39}"/>
+						<Switch Name="seq_09" ID="{D2FF4632-DF13-437E-9005-E19DF88058E8}"/>
+						<Switch Name="seq_10" ID="{07065A56-960B-468C-B044-E8B4B43D3E88}"/>
+						<Switch Name="seq_11" ID="{795E7751-BA6B-43EB-896C-852AC97280A3}"/>
+						<Switch Name="seq_12" ID="{FC7B71CE-A737-4735-9827-87DCBB258FDA}"/>
+						<Switch Name="seq_13" ID="{C93E73F9-2E8E-4F9E-9D17-9123A5C9280F}"/>
+						<Switch Name="seq_14" ID="{25626A7B-777A-4376-BC75-019F3D7EF8AA}"/>
+						<Switch Name="seq_15" ID="{D1358657-C75A-441D-9E01-A8E583A3CEEC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer2_sequence" ID="{BB9F9047-CC2B-4CF6-B1BB-71ACA8C35BE4}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{6FBD94E9-4EF1-421E-9227-DEA91767E69E}"/>
+						<Switch Name="seq_02" ID="{EF729103-E533-4AD3-8C18-08FEB9C9BFF1}"/>
+						<Switch Name="seq_03" ID="{991A569E-E87C-4F56-BAAA-A481AC73C71B}"/>
+						<Switch Name="seq_04" ID="{FD0EC459-78FA-4AD5-8165-CA2317DD1C6D}"/>
+						<Switch Name="seq_05" ID="{66C1FC69-7816-4327-9520-18B73C9BC6BF}"/>
+						<Switch Name="seq_06" ID="{01E8FCA6-BF1C-4339-9475-02895407D595}"/>
+						<Switch Name="seq_07" ID="{94A94F01-E7C2-4DE5-BA7E-D6DA59CC3123}"/>
+						<Switch Name="seq_08" ID="{B9D99413-4F27-4F72-A0C2-CEFBD46430E4}"/>
+						<Switch Name="seq_09" ID="{22C4AE8F-943D-44A3-85F4-9475365D69F6}"/>
+						<Switch Name="seq_10" ID="{6B037736-5F63-45C4-97BB-52F41F01462A}"/>
+						<Switch Name="seq_11" ID="{AAA611C4-431E-49D4-9172-6B08C8D17FF1}"/>
+						<Switch Name="seq_12" ID="{BC8AFFA7-E54B-4549-B56D-559417C77E4A}"/>
+						<Switch Name="seq_13" ID="{0501F666-8D21-4909-B34B-9F3953C66829}"/>
+						<Switch Name="seq_14" ID="{35135243-6C04-4AB2-B69A-B9617632A2B8}"/>
+						<Switch Name="seq_15" ID="{797C760A-41CE-44B4-AC40-2675A060CCEA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="layer3_sequence" ID="{488BBE11-A38A-4B3A-BA67-349B155D3D6C}">
+					<ChildrenList>
+						<Switch Name="seq_01" ID="{99EAC296-3F72-43EF-85F8-071D7B9D1A84}"/>
+						<Switch Name="seq_02" ID="{83B63342-114E-4DCB-B77D-BBA4C8C36E8E}"/>
+						<Switch Name="seq_03" ID="{220E7494-A903-45E9-9E66-DB6794DB0701}"/>
+						<Switch Name="seq_04" ID="{6771464F-DDC8-4857-8F12-403DD446F659}"/>
+						<Switch Name="seq_05" ID="{A6EFACC1-6306-4AA9-98D0-D0427087F002}"/>
+						<Switch Name="seq_06" ID="{EEDD3629-B07A-4F35-81AE-5FAA4CF3F631}"/>
+						<Switch Name="seq_07" ID="{2101F841-B3D2-48E0-AF04-C7B2A0F151F2}"/>
+						<Switch Name="seq_08" ID="{6CD0B981-43B0-4445-B419-FCC01942CAB5}"/>
+						<Switch Name="seq_09" ID="{3CA7DAA5-B8E9-4442-BA59-212F29E266A7}"/>
+						<Switch Name="seq_10" ID="{63AE5D95-BBAA-4556-9FB5-7906BB5496A4}"/>
+						<Switch Name="seq_11" ID="{61074A5D-EDF0-430D-B0CE-BD3AA37D6823}"/>
+						<Switch Name="seq_12" ID="{43CD444C-D903-4D11-B58A-2F4C8221360D}"/>
+						<Switch Name="seq_13" ID="{AA977103-A8B1-4FD7-8B83-EE7E54E97600}"/>
+						<Switch Name="seq_14" ID="{B416107B-9768-4A12-8703-1161F2F48E60}"/>
+						<Switch Name="seq_15" ID="{21D71F30-1098-421B-A6BF-EC0305C6C57F}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

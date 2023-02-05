@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_LAYER1 = 3970205738U;
         static const AkUniqueID PLAY_LAYER2 = 3970205737U;
         static const AkUniqueID PLAY_LAYER3 = 3970205736U;
+        static const AkUniqueID PLAY_MUSICSEQUENCES = 1990424979U;
         static const AkUniqueID PLAY_ROOTNOTE = 869611322U;
     } // namespace EVENTS
 

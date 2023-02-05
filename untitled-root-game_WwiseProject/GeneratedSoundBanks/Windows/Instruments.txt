@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1990424979	play_musicSequences			\Default Work Unit\play_musicSequences	
 	3970205736	play_layer3			\Default Work Unit\play_layer3	
 	3970205737	play_layer2			\Default Work Unit\play_layer2	
 	3970205738	play_layer1			\Default Work Unit\play_layer1	

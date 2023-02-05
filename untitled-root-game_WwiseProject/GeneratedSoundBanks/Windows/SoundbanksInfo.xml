@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="559901361" Type="User" Language="SFX" Hash="{B909BC1B-B8F2-EDCB-5634-CD2A9F45BAA8}">
+		<SoundBank Id="559901361" Type="User" Language="SFX" Hash="{C3E7A4FB-8535-300D-E4DF-9840AE251A38}">
 			<ShortName>Instruments</ShortName>
 			<Path>Instruments.bnk</Path>
 			<Media>
@@ -8118,6 +8118,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1990424979" Name="play_musicSequences" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3970205736" Name="play_layer3"/>
+						<ActionPostEventEntry Id="3970205737" Name="play_layer2"/>
+						<ActionPostEventEntry Id="3970205738" Name="play_layer1"/>
+					</ActionPostEvent>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="53664594" Name="layer2_instrument">
@@ -8517,5 +8524,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1A2E23F7-2950-5CA8-4B5E-5E944D6AF73B}</FileHash>
+	<FileHash>{83F35C78-BB2A-4F58-E5E3-9BC87F036AA0}</FileHash>
 </SoundBanksInfo>

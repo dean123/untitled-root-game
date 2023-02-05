@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C735496D-B84C-4D62-AFC9-29DCA519A53A}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{C735496D-B84C-4D62-AFC9-29DCA519A53A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C735496D-B84C-4D62-AFC9-29DCA519A53A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="music_key" ID="{020B4767-6E5E-43D9-AB12-77F51B2FBAC3}">
+					<ChildrenList>
+						<Switch Name="key_C" ID="{4641F27E-59A5-4DF4-8132-D9260F111ADE}"/>
+						<Switch Name="key_Cs" ID="{6A9791EE-80BD-4CC6-B8B3-6C036BB9BE0E}"/>
+						<Switch Name="key_D" ID="{9B20A777-F6DF-451E-931E-420164A734C8}"/>
+						<Switch Name="key_A" ID="{486D6DEC-DDEE-4592-B9DE-852F685A66DB}"/>
+						<Switch Name="key_E" ID="{BFD1173A-2813-4C38-AA53-AB42115BE625}"/>
+						<Switch Name="key_B" ID="{41742981-3054-4270-8C14-68E19B37E529}"/>
+						<Switch Name="key_Fs" ID="{58844875-0A48-412F-8AE6-7333DBC4E520}"/>
+						<Switch Name="key_Eb" ID="{DDC628D6-AE39-4002-BAC1-BEED3FAC33BE}"/>
+						<Switch Name="key_Bb" ID="{3E2E04AC-40F3-4470-B290-6942971BD810}"/>
+						<Switch Name="key_F" ID="{54AC7457-6024-42B4-AD32-AB37E84AC1FA}"/>
+						<Switch Name="key_Ab" ID="{5C201A5D-DFD8-4666-8D18-AC8AEA49E92A}"/>
+						<Switch Name="key_G" ID="{FF81D2FB-9258-4AFC-8E79-8B60CC87A8A6}"/>
+						<Switch Name="key_empty" ID="{206E77FB-13F0-40A2-9C6B-F7C2C629F11E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

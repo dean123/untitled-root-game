@@ -45,6 +45,7 @@
 						<Switch Name="marimba" ID="{0677D33D-2E44-4962-8AC9-2443472777C4}"/>
 						<Switch Name="e_piano" ID="{449ADB59-C85D-4426-8939-1CF090AB2BC2}"/>
 						<Switch Name="waterdrops" ID="{A24F4009-6C15-4E8F-BA51-83BA71401E7B}"/>
+						<Switch Name="no_instrument" ID="{10360B73-3F5A-498C-B658-C4F7060F39DB}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="layer1_instrument" ID="{780257C2-2288-4082-99B4-9FF5351A662C}">
@@ -53,6 +54,7 @@
 						<Switch Name="marimba" ID="{50B498E0-22EB-44AC-AB6E-B70AD9AFEA08}"/>
 						<Switch Name="e_piano" ID="{2536C4AF-9B14-47FE-9D3F-29B4AF2316C9}"/>
 						<Switch Name="waterdrops" ID="{523A1C6F-C0B7-4813-9AF4-0ECD6BE80FD0}"/>
+						<Switch Name="no_instrument" ID="{0827CE68-49F4-4130-ADD6-0EFC31C67FA3}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="layer3_instrument" ID="{98D6493A-FE71-4C2F-9303-B9B946F5D807}">
@@ -61,6 +63,7 @@
 						<Switch Name="marimba" ID="{8FD08F36-0AC1-43FA-996B-1EDAAE9C1012}"/>
 						<Switch Name="e_piano" ID="{729A834E-7456-439D-8F41-8042F85C160F}"/>
 						<Switch Name="waterdrops" ID="{BA129E27-4E94-4C2E-9C18-83BA600D448A}"/>
+						<Switch Name="no_instrument" ID="{1D8FB092-3679-4BC4-9C54-23908A318C42}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="layer2_sequence" ID="{E5686AD1-01AA-48BA-9988-1A6738536B55}">

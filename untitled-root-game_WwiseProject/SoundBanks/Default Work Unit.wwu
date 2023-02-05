@@ -3,12 +3,18 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{2E9A5340-DC70-4FE2-A35B-1DDEBD30BA59}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main_SB" ID="{D218CD43-5FBE-468D-AA9C-A8B629F9AAD1}">
+				<SoundBank Name="Instruments" ID="{D218CD43-5FBE-468D-AA9C-A8B629F9AAD1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_layer3" ID="{A071B0B3-5639-43F5-943F-1A7BC287FA4D}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_root" ID="{4A20691C-6E4C-4457-9147-5963060075BE}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_layer2" ID="{A66C8DA6-97F5-4A5A-9FFE-EEC33989BDBE}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_layer1" ID="{434758A7-4017-4EB7-9F0E-6B9E9B6F857B}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="RootNotes" ID="{4D678C82-505A-4B64-B240-C5EAAD4D1CC3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_rootNote" ID="{4A20691C-6E4C-4457-9147-5963060075BE}" WorkUnitID="{AE955ECB-DE11-44BD-937A-B180B61CD417}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

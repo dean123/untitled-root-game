@@ -4,12 +4,18 @@
 		<WorkUnit Name="Samplers" ID="{BE3FB8C0-482E-4FFE-857C-19D9847E9574}" OwnerID="{89E0A3BD-0A9E-441C-8F9C-11A948E0687C}" PersistMode="Nested">
 			<ChildrenList>
 				<BlendContainer Name="E-Piano" ID="{759B3CCF-17E3-4092-9C9E-C0811FB5348A}" ShortID="967095554">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+							<ObjectRef Name="E-PianoBus" ID="{D4A94B51-7D8A-4D46-8EBB-29018ECECFE9}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{62F3D2BF-5348-473F-8688-D099CB7EEE40}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -390,12 +396,23 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Glockenspiel" ID="{D4DC4E6E-5904-4EEA-BAA2-B97103BB0901}" ShortID="629899145">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+							<ObjectRef Name="GlockBus" ID="{CB74686C-EA48-443F-A6F8-7D4CE2AB2885}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{62F3D2BF-5348-473F-8688-D099CB7EEE40}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -631,12 +648,23 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Marimba" ID="{3FF2ADAF-4661-44E2-89C1-6A04BADB8D5D}" ShortID="590766505">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+							<ObjectRef Name="MarimbaBus" ID="{B8AB80E4-C342-4CE2-95D6-3665FB233FA3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{62F3D2BF-5348-473F-8688-D099CB7EEE40}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1055,6 +1083,12 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -1073,7 +1107,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+							<ObjectRef Name="WaterBus" ID="{DE78BC30-D630-4C73-B49C-A81A6D8F65EF}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{62F3D2BF-5348-473F-8688-D099CB7EEE40}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1087,6 +1124,24 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="sfx_drop" ID="{082D8FA5-7100-4C03-B028-B50A9409CB85}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Silence" ID="{A763CE03-A1EB-4C93-BFAE-20B6740713B1}" ShortID="144395853">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Silence" ID="{6C372E54-CB6C-4C2E-9F07-D0931AB3AF23}" ShortID="254094166" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Silence" ID="{6C372E54-CB6C-4C2E-9F07-D0931AB3AF23}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

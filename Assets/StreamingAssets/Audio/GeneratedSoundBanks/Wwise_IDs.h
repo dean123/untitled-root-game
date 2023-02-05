@@ -16,8 +16,24 @@ namespace AK
         static const AkUniqueID PLAY_LAYER1 = 3970205738U;
         static const AkUniqueID PLAY_LAYER2 = 3970205737U;
         static const AkUniqueID PLAY_LAYER3 = 3970205736U;
-        static const AkUniqueID PLAY_ROOT = 2736697014U;
+        static const AkUniqueID PLAY_ROOTNOTE = 869611322U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSICPLAYBACKSTATE
+        {
+            static const AkUniqueID GROUP = 2771010040U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ISNOTPLAYING = 4050044038U;
+                static const AkUniqueID ISPLAYING = 728654205U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSICPLAYBACKSTATE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -30,6 +46,7 @@ namespace AK
                 static const AkUniqueID E_PIANO = 3130365160U;
                 static const AkUniqueID GLOCK = 2851058149U;
                 static const AkUniqueID MARIMBA = 3091781674U;
+                static const AkUniqueID NO_INSTRUMENT = 1758217356U;
                 static const AkUniqueID WATERDROPS = 3888338336U;
             } // namespace SWITCH
         } // namespace LAYER1_INSTRUMENT
@@ -67,6 +84,7 @@ namespace AK
                 static const AkUniqueID E_PIANO = 3130365160U;
                 static const AkUniqueID GLOCK = 2851058149U;
                 static const AkUniqueID MARIMBA = 3091781674U;
+                static const AkUniqueID NO_INSTRUMENT = 1758217356U;
                 static const AkUniqueID WATERDROPS = 3888338336U;
             } // namespace SWITCH
         } // namespace LAYER2_INSTRUMENT
@@ -104,6 +122,7 @@ namespace AK
                 static const AkUniqueID E_PIANO = 3130365160U;
                 static const AkUniqueID GLOCK = 2851058149U;
                 static const AkUniqueID MARIMBA = 3091781674U;
+                static const AkUniqueID NO_INSTRUMENT = 1758217356U;
                 static const AkUniqueID WATERDROPS = 3888338336U;
             } // namespace SWITCH
         } // namespace LAYER3_INSTRUMENT
@@ -165,8 +184,18 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID DRONEBUS = 2303611425U;
+        static const AkUniqueID E_PIANOBUS = 1273451924U;
+        static const AkUniqueID GLOCKBUS = 1248306405U;
+        static const AkUniqueID MARIMBABUS = 1344387360U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID WATERBUS = 394368016U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

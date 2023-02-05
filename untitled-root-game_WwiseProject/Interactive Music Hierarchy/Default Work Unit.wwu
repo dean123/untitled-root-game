@@ -12,7 +12,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2DD017F-851B-4F71-9A66-2623EE74C9E9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
+							<ObjectRef Name="DroneBus" ID="{C77909B9-7A8C-4C7C-8C3D-47A5A91C7080}" WorkUnitID="{325D06DC-7B78-4CE0-A92C-E6F433942BA3}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

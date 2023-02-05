@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2736697014	play_root			\Default Work Unit\play_root	
+	869611322	play_rootNote			\Default Work Unit\play_rootNote	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2078097994	music_key			\Default Work Unit\music_key	

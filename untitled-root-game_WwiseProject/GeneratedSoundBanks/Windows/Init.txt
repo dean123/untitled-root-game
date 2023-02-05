@@ -1,5 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2771010040	MusicPlaybackState			\Default Work Unit\MusicPlaybackState	
+
+State	ID	Name	State Group			Notes
+	728654205	isPlaying	MusicPlaybackState			
+	748895195	None	MusicPlaybackState			
+	4050044038	isNotPlaying	MusicPlaybackState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	394368016	WaterBus			\Default Work Unit\Master Audio Bus\WaterBus	
+	1248306405	GlockBus			\Default Work Unit\Master Audio Bus\GlockBus	
+	1273451924	E-PianoBus			\Default Work Unit\Master Audio Bus\E-PianoBus	
+	1344387360	MarimbaBus			\Default Work Unit\Master Audio Bus\MarimbaBus	
+	2303611425	DroneBus			\Default Work Unit\Master Audio Bus\DroneBus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

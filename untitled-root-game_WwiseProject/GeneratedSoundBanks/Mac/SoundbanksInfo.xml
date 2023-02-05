@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="559901361" Type="User" Language="SFX" Hash="{725E54B5-34B4-2304-430D-EEB5A09A2817}">
+		<SoundBank Id="559901361" Type="User" Language="SFX" Hash="{06DC3855-D751-7DCB-2BC5-F921EDF2184A}">
 			<ShortName>Instruments</ShortName>
 			<Path>Instruments.bnk</Path>
 			<Media>
@@ -514,8 +514,16 @@
 					<CachePath>SFX/E-Piano/epiano_C3_E5FEFA51.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="254094166" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="3970205738" Name="play_layer1" DurationType="Infinite">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1002001839" Id="3130365160"/>
@@ -3040,9 +3048,20 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1002001839" Id="1758217356"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="254094166"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="3970205737" Name="play_layer2" DurationType="Infinite">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="53664594" Id="3130365160"/>
@@ -5570,6 +5589,9 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="3970205736" Name="play_layer3" DurationType="Infinite">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1579504537" Id="3130365160"/>
@@ -8100,6 +8122,7 @@
 			<SwitchGroups>
 				<SwitchGroup Id="53664594" Name="layer2_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8108,6 +8131,7 @@
 				</SwitchGroup>
 				<SwitchGroup Id="1002001839" Name="layer1_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8135,6 +8159,7 @@
 				</SwitchGroup>
 				<SwitchGroup Id="1579504537" Name="layer3_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8198,21 +8223,48 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{284362B9-F0F1-6B9F-8CBE-65BCCEEAC66E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="394368016" Name="WaterBus"/>
+				<Bus Id="1248306405" Name="GlockBus"/>
+				<Bus Id="1273451924" Name="E-PianoBus"/>
+				<Bus Id="1344387360" Name="MarimbaBus"/>
+				<Bus Id="2303611425" Name="DroneBus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="2771010040" Name="MusicPlaybackState">
+					<States>
+						<State Id="728654205" Name="isPlaying"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="4050044038" Name="isNotPlaying"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="53664594" Name="layer2_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8221,6 +8273,7 @@
 				</SwitchGroup>
 				<SwitchGroup Id="1002001839" Name="layer1_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8248,6 +8301,7 @@
 				</SwitchGroup>
 				<SwitchGroup Id="1579504537" Name="layer3_instrument">
 					<Switches>
+						<Switch Id="1758217356" Name="no_instrument"/>
 						<Switch Id="2851058149" Name="glock"/>
 						<Switch Id="3091781674" Name="marimba"/>
 						<Switch Id="3130365160" Name="e_piano"/>
@@ -8311,7 +8365,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3511679152" Type="User" Language="SFX" Hash="{AFE1C013-7361-7873-6C55-188231054E63}">
+		<SoundBank Id="3511679152" Type="User" Language="SFX" Hash="{0C2F31CA-E8EA-5B77-A9C3-24290D0E635E}">
 			<ShortName>RootNotes</ShortName>
 			<Path>RootNotes.bnk</Path>
 			<Media>
@@ -8365,7 +8419,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2736697014" Name="play_root" DurationType="Infinite">
+				<Event Id="869611322" Name="play_rootNote" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2078097994" Id="3865414042"/>
@@ -8463,5 +8517,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{76BF8B4F-BE88-1323-0A77-5BADE22353DB}</FileHash>
+	<FileHash>{A89E0718-B61B-35D0-A8DB-BB24CCCEDFA6}</FileHash>
 </SoundBanksInfo>

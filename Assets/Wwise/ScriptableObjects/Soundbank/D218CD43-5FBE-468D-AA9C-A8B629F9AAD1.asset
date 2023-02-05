@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b57dbe28d30f61743addd15eb4da42ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 7544b97ace8b1494ca6c47441ecff820, type: 3}
   m_Name: D218CD43-5FBE-468D-AA9C-A8B629F9AAD1
   m_EditorClassIdentifier: 
-  objectName: Main_SB
-  id: 2410569202
+  objectName: Instruments
+  id: 559901361
   guid: D218CD43-5FBE-468D-AA9C-A8B629F9AAD1

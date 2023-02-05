@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaa4e00b836150b44b55f3ed3ff83eb7, type: 3}
+  m_Script: {fileID: 11500000, guid: 406224c1f37654d3295c7c572792b450, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 576cd12a423f0e4781242180822f479b
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: 576cd12a423f0e4781242180822f479b
     GuidInternal: 
-    m_lastTime: -8585260645323924683
+    m_lastTime: -8585260052296912422
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,11 +35,79 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: dc065d32787be04ca92ce6f433942ba3
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: dc065d32787be04ca92ce6f433942ba3
     GuidInternal: 
-    m_lastTime: -8585260645324971876
+    m_lastTime: -8585260052314053980
     List:
+    - name: DroneBus
+      guid: b90979c78c7a7c4c8c3d47a5a91c7080
+      id: 2303611425
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DroneBus
+        ObjectType: 2
+        guid: b90979c78c7a7c4c8c3d47a5a91c7080
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/DroneBus
+    - name: E-PianoBus
+      guid: 514ba9d48a7d464d8ebb29018ececfe9
+      id: 1273451924
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: E-PianoBus
+        ObjectType: 2
+        guid: 514ba9d48a7d464d8ebb29018ececfe9
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/E-PianoBus
+    - name: GlockBus
+      guid: 6c6874cb48ea3f44a6f87d4ce2ab2885
+      id: 1248306405
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: GlockBus
+        ObjectType: 2
+        guid: 6c6874cb48ea3f44a6f87d4ce2ab2885
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/GlockBus
+    - name: MarimbaBus
+      guid: e480abb842c3e24c95d63665fb233fa3
+      id: 1344387360
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MarimbaBus
+        ObjectType: 2
+        guid: e480abb842c3e24c95d63665fb233fa3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/MarimbaBus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -53,9 +121,43 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Reverb
+      guid: bfd2f36248533f478688d099cb7eee40
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: bfd2f36248533f478688d099cb7eee40
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Reverb
+    - name: WaterBus
+      guid: 30bc78de30d6734cb49ca81a6d8f65ef
+      id: 394368016
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc065d32787be04ca92ce6f433942ba3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: WaterBus
+        ObjectType: 2
+        guid: 30bc78de30d6734cb49ca81a6d8f65ef
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/WaterBus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,14 +165,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 40539a2e70dce24fa35b1ddebd30ba59
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 40539a2e70dce24fa35b1ddebd30ba59
     GuidInternal: 
-    m_lastTime: -8585260615053398900
+    m_lastTime: -8585260052296929540
     List:
-    - name: Main_SB
+    - name: Instruments
       guid: 43cd18d2be5f8d46aa9ca8b629f9aad1
-      id: 2410569202
+      id: 559901361
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,12 +180,26 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 40539a2e70dce24fa35b1ddebd30ba59
-      - ElementName: Main_SB
+      - ElementName: Instruments
         ObjectType: 7
         guid: 43cd18d2be5f8d46aa9ca8b629f9aad1
-      Path: SoundBanks\Default Work Unit\Main_SB
+      Path: SoundBanks/Default Work Unit/Instruments
+    - name: RootNotes
+      guid: 828c674d5a50644bb240c5eaad4d1cc3
+      id: 3511679152
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 40539a2e70dce24fa35b1ddebd30ba59
+      - ElementName: RootNotes
+        ObjectType: 7
+        guid: 828c674d5a50644bb240c5eaad4d1cc3
+      Path: SoundBanks/Default Work Unit/RootNotes
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,14 +207,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: cb5e95ae11debd44937ab180b61cd417
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: cb5e95ae11debd44937ab180b61cd417
     GuidInternal: 
-    m_lastTime: -8585260615053470203
+    m_lastTime: -8585260052330813011
     List:
-    - name: PlayTest
-      guid: 0903240c5bccad4aadf176a1c052e72a
-      id: 96444927
+    - name: play_layer1
+      guid: a75847431740b74e9f0e6b9e9b6f857b
+      id: 3970205738
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,16 +222,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: cb5e95ae11debd44937ab180b61cd417
-      - ElementName: PlayTest
+      - ElementName: play_layer1
         ObjectType: 3
-        guid: 0903240c5bccad4aadf176a1c052e72a
-      Path: Events\Default Work Unit\PlayTest
+        guid: a75847431740b74e9f0e6b9e9b6f857b
+      Path: Events/Default Work Unit/play_layer1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: StopTest
-      guid: 07a95789803f9344a5ce36f3279f712b
-      id: 1701400385
+    - name: play_layer2
+      guid: a68d6ca6f5975a4a9ffeeec33989bdbe
+      id: 3970205737
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,15 +239,66 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: cb5e95ae11debd44937ab180b61cd417
-      - ElementName: StopTest
+      - ElementName: play_layer2
         ObjectType: 3
-        guid: 07a95789803f9344a5ce36f3279f712b
-      Path: Events\Default Work Unit\StopTest
+        guid: a68d6ca6f5975a4a9ffeeec33989bdbe
+      Path: Events/Default Work Unit/play_layer2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_layer3
+      guid: b3b071a03956f543943f1a7bc287fa4d
+      id: 3970205736
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb5e95ae11debd44937ab180b61cd417
+      - ElementName: play_layer3
+        ObjectType: 3
+        guid: b3b071a03956f543943f1a7bc287fa4d
+      Path: Events/Default Work Unit/play_layer3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_musicSequences
+      guid: 689ea0965427ef4aa8ed9148bfe392dd
+      id: 1990424979
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb5e95ae11debd44937ab180b61cd417
+      - ElementName: play_musicSequences
+        ObjectType: 3
+        guid: 689ea0965427ef4aa8ed9148bfe392dd
+      Path: Events/Default Work Unit/play_musicSequences
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_rootNote
+      guid: 1c69204a4c6e574491475963060075be
+      id: 869611322
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb5e95ae11debd44937ab180b61cd417
+      - ElementName: play_rootNote
+        ObjectType: 3
+        guid: 1c69204a4c6e574491475963060075be
+      Path: Events/Default Work Unit/play_rootNote
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -139,13 +306,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b942c086946b5a4fa1e00c34d2e3b05d
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: b942c086946b5a4fa1e00c34d2e3b05d
     GuidInternal: 
-    m_lastTime: -8585260645323705275
+    m_lastTime: -8585260052330810669
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -153,13 +320,79 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a332017b7dd0864eb75b9ebd02f1e804
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: a332017b7dd0864eb75b9ebd02f1e804
     GuidInternal: 
-    m_lastTime: -8585260645323236529
-    List: []
+    m_lastTime: -8585260052296923032
+    List:
+    - name: MusicPlaybackState
+      guid: 059ca02ae8a4b54eafe7fdc1bda44bc5
+      id: 2771010040
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a332017b7dd0864eb75b9ebd02f1e804
+      - ElementName: MusicPlaybackState
+        ObjectType: 9
+        guid: 059ca02ae8a4b54eafe7fdc1bda44bc5
+      Path: States/Default Work Unit/MusicPlaybackState
+      values:
+      - name: isNotPlaying
+        guid: b3340f772262c9458658b4ac654b0cd1
+        id: 4050044038
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a332017b7dd0864eb75b9ebd02f1e804
+        - ElementName: MusicPlaybackState
+          ObjectType: 9
+          guid: 059ca02ae8a4b54eafe7fdc1bda44bc5
+        - ElementName: isNotPlaying
+          ObjectType: 8
+          guid: b3340f772262c9458658b4ac654b0cd1
+      - name: isPlaying
+        guid: 2f7cada02a3c094c9b808f58c2b73970
+        id: 728654205
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a332017b7dd0864eb75b9ebd02f1e804
+        - ElementName: MusicPlaybackState
+          ObjectType: 9
+          guid: 059ca02ae8a4b54eafe7fdc1bda44bc5
+        - ElementName: isPlaying
+          ObjectType: 8
+          guid: 2f7cada02a3c094c9b808f58c2b73970
+      - name: None
+        guid: 8e938bb55b93a44fb08186aba7fa043f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a332017b7dd0864eb75b9ebd02f1e804
+        - ElementName: MusicPlaybackState
+          ObjectType: 9
+          guid: 059ca02ae8a4b54eafe7fdc1bda44bc5
+        - ElementName: None
+          ObjectType: 8
+          guid: 8e938bb55b93a44fb08186aba7fa043f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -167,13 +400,1307 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 6d4935c74cb8624dafc929dca519a53a
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 6d4935c74cb8624dafc929dca519a53a
     GuidInternal: 
-    m_lastTime: -8585260645323775091
-    List: []
+    m_lastTime: -8585260052296919691
+    List:
+    - name: layer1_instrument
+      guid: c25702788822824099b49ff5351a662c
+      id: 1002001839
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer1_instrument
+        ObjectType: 11
+        guid: c25702788822824099b49ff5351a662c
+      Path: Switches/Default Work Unit/layer1_instrument
+      values:
+      - name: e_piano
+        guid: afc43625149bfe479d3f29b4af2316c9
+        id: 3130365160
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_instrument
+          ObjectType: 11
+          guid: c25702788822824099b49ff5351a662c
+        - ElementName: e_piano
+          ObjectType: 10
+          guid: afc43625149bfe479d3f29b4af2316c9
+      - name: glock
+        guid: 2d7273156c3de441864434b74b2dc7c7
+        id: 2851058149
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_instrument
+          ObjectType: 11
+          guid: c25702788822824099b49ff5351a662c
+        - ElementName: glock
+          ObjectType: 10
+          guid: 2d7273156c3de441864434b74b2dc7c7
+      - name: marimba
+        guid: e098b450eb22ac44ab6eb70ad9afea08
+        id: 3091781674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_instrument
+          ObjectType: 11
+          guid: c25702788822824099b49ff5351a662c
+        - ElementName: marimba
+          ObjectType: 10
+          guid: e098b450eb22ac44ab6eb70ad9afea08
+      - name: no_instrument
+        guid: 68ce2708f4493041add60efc31c67fa3
+        id: 1758217356
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_instrument
+          ObjectType: 11
+          guid: c25702788822824099b49ff5351a662c
+        - ElementName: no_instrument
+          ObjectType: 10
+          guid: 68ce2708f4493041add60efc31c67fa3
+      - name: waterdrops
+        guid: 6f1c3a52b7c013489af40ecd6be80fd0
+        id: 3888338336
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_instrument
+          ObjectType: 11
+          guid: c25702788822824099b49ff5351a662c
+        - ElementName: waterdrops
+          ObjectType: 10
+          guid: 6f1c3a52b7c013489af40ecd6be80fd0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: layer1_sequence
+      guid: 80b0811917433049a34d11f674042360
+      id: 1210835747
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer1_sequence
+        ObjectType: 11
+        guid: 80b0811917433049a34d11f674042360
+      Path: Switches/Default Work Unit/layer1_sequence
+      values:
+      - name: seq_01
+        guid: d7f2a60abfbea646a8bca674d8232c5a
+        id: 2968500192
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_01
+          ObjectType: 10
+          guid: d7f2a60abfbea646a8bca674d8232c5a
+      - name: seq_02
+        guid: 99b59bbc5d44444293fc5e3d1f7a34af
+        id: 2968500195
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_02
+          ObjectType: 10
+          guid: 99b59bbc5d44444293fc5e3d1f7a34af
+      - name: seq_03
+        guid: 3827b994c441f946aa391bf6ca50cb41
+        id: 2968500194
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_03
+          ObjectType: 10
+          guid: 3827b994c441f946aa391bf6ca50cb41
+      - name: seq_04
+        guid: 36b695cbb9c21a4b887752c67d17ced7
+        id: 2968500197
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_04
+          ObjectType: 10
+          guid: 36b695cbb9c21a4b887752c67d17ced7
+      - name: seq_05
+        guid: 05d637c9de126d43bac467ee189d252c
+        id: 2968500196
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_05
+          ObjectType: 10
+          guid: 05d637c9de126d43bac467ee189d252c
+      - name: seq_06
+        guid: 1ed4b2c56e482b40b32584f2b88eae93
+        id: 2968500199
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_06
+          ObjectType: 10
+          guid: 1ed4b2c56e482b40b32584f2b88eae93
+      - name: seq_07
+        guid: 4739042c0062af43ada8ae98c84a64e8
+        id: 2968500198
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_07
+          ObjectType: 10
+          guid: 4739042c0062af43ada8ae98c84a64e8
+      - name: seq_08
+        guid: 4cc4edbf5dbd6a49b54313d03760ac39
+        id: 2968500201
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_08
+          ObjectType: 10
+          guid: 4cc4edbf5dbd6a49b54313d03760ac39
+      - name: seq_09
+        guid: 3246ffd213df7e439005e19df88058e8
+        id: 2968500200
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_09
+          ObjectType: 10
+          guid: 3246ffd213df7e439005e19df88058e8
+      - name: seq_10
+        guid: 565a06070b968c46b044e8b4b43d3e88
+        id: 2951722510
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_10
+          ObjectType: 10
+          guid: 565a06070b968c46b044e8b4b43d3e88
+      - name: seq_11
+        guid: 51775e796bbaeb43896c852ac97280a3
+        id: 2951722511
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_11
+          ObjectType: 10
+          guid: 51775e796bbaeb43896c852ac97280a3
+      - name: seq_12
+        guid: ce717bfc37a73547982787dcbb258fda
+        id: 2951722508
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_12
+          ObjectType: 10
+          guid: ce717bfc37a73547982787dcbb258fda
+      - name: seq_13
+        guid: f9733ec98e2e9e4f9d179123a5c9280f
+        id: 2951722509
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_13
+          ObjectType: 10
+          guid: f9733ec98e2e9e4f9d179123a5c9280f
+      - name: seq_14
+        guid: 7b6a62257a777643bc75019f3d7ef8aa
+        id: 2951722506
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_14
+          ObjectType: 10
+          guid: 7b6a62257a777643bc75019f3d7ef8aa
+      - name: seq_15
+        guid: 578635d15ac71d449e01a8e583a3ceec
+        id: 2951722507
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer1_sequence
+          ObjectType: 11
+          guid: 80b0811917433049a34d11f674042360
+        - ElementName: seq_15
+          ObjectType: 10
+          guid: 578635d15ac71d449e01a8e583a3ceec
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: layer2_instrument
+      guid: c85b7ad0bed28e41b0c9e097b488e9b8
+      id: 53664594
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer2_instrument
+        ObjectType: 11
+        guid: c85b7ad0bed28e41b0c9e097b488e9b8
+      Path: Switches/Default Work Unit/layer2_instrument
+      values:
+      - name: e_piano
+        guid: 59db9a445dc8264489391cf090ab2bc2
+        id: 3130365160
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_instrument
+          ObjectType: 11
+          guid: c85b7ad0bed28e41b0c9e097b488e9b8
+        - ElementName: e_piano
+          ObjectType: 10
+          guid: 59db9a445dc8264489391cf090ab2bc2
+      - name: glock
+        guid: f466ed8b323abb408fa09ac5601fa26f
+        id: 2851058149
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_instrument
+          ObjectType: 11
+          guid: c85b7ad0bed28e41b0c9e097b488e9b8
+        - ElementName: glock
+          ObjectType: 10
+          guid: f466ed8b323abb408fa09ac5601fa26f
+      - name: marimba
+        guid: 3dd37706442e62498ac92443472777c4
+        id: 3091781674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_instrument
+          ObjectType: 11
+          guid: c85b7ad0bed28e41b0c9e097b488e9b8
+        - ElementName: marimba
+          ObjectType: 10
+          guid: 3dd37706442e62498ac92443472777c4
+      - name: no_instrument
+        guid: 730b36105a3f8c49b658c4f7060f39db
+        id: 1758217356
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_instrument
+          ObjectType: 11
+          guid: c85b7ad0bed28e41b0c9e097b488e9b8
+        - ElementName: no_instrument
+          ObjectType: 10
+          guid: 730b36105a3f8c49b658c4f7060f39db
+      - name: waterdrops
+        guid: 09404fa2156c8f4eba5183ba71401e7b
+        id: 3888338336
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_instrument
+          ObjectType: 11
+          guid: c85b7ad0bed28e41b0c9e097b488e9b8
+        - ElementName: waterdrops
+          ObjectType: 10
+          guid: 09404fa2156c8f4eba5183ba71401e7b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: layer2_sequence
+      guid: d16a68e5aa01ba4899881a6738536b55
+      id: 2982534782
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer2_sequence
+        ObjectType: 11
+        guid: d16a68e5aa01ba4899881a6738536b55
+      Path: Switches/Default Work Unit/layer2_sequence
+      values:
+      - name: seq_01
+        guid: 081db1ed6205de4992a2827e3463c817
+        id: 2968500192
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_01
+          ObjectType: 10
+          guid: 081db1ed6205de4992a2827e3463c817
+      - name: seq_02
+        guid: 801b5df60dd0d2469d30f81715a5d656
+        id: 2968500195
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_02
+          ObjectType: 10
+          guid: 801b5df60dd0d2469d30f81715a5d656
+      - name: seq_03
+        guid: f076165265cebe458d87251702ba5462
+        id: 2968500194
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_03
+          ObjectType: 10
+          guid: f076165265cebe458d87251702ba5462
+      - name: seq_04
+        guid: b79eeb5e262dd4499017acebac5f1a1e
+        id: 2968500197
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_04
+          ObjectType: 10
+          guid: b79eeb5e262dd4499017acebac5f1a1e
+      - name: seq_05
+        guid: 6ce101b52975f84d9f48ee2a718fa68b
+        id: 2968500196
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_05
+          ObjectType: 10
+          guid: 6ce101b52975f84d9f48ee2a718fa68b
+      - name: seq_06
+        guid: 6c6ff7f1b0558f4ab9c0f20db36ed288
+        id: 2968500199
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_06
+          ObjectType: 10
+          guid: 6c6ff7f1b0558f4ab9c0f20db36ed288
+      - name: seq_07
+        guid: c96198eeedc0e44aa8cd98f5838d985a
+        id: 2968500198
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_07
+          ObjectType: 10
+          guid: c96198eeedc0e44aa8cd98f5838d985a
+      - name: seq_08
+        guid: bc3c346763db844e97e1d0ad60a00a26
+        id: 2968500201
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_08
+          ObjectType: 10
+          guid: bc3c346763db844e97e1d0ad60a00a26
+      - name: seq_09
+        guid: e5ef903056f3d342ad24eac590aa7ad6
+        id: 2968500200
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_09
+          ObjectType: 10
+          guid: e5ef903056f3d342ad24eac590aa7ad6
+      - name: seq_10
+        guid: 0026dbe7f7ce13489dbe0d9ee70f68d6
+        id: 2951722510
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_10
+          ObjectType: 10
+          guid: 0026dbe7f7ce13489dbe0d9ee70f68d6
+      - name: seq_11
+        guid: 6478df40bc6d954993b131196e26afe2
+        id: 2951722511
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_11
+          ObjectType: 10
+          guid: 6478df40bc6d954993b131196e26afe2
+      - name: seq_12
+        guid: 890fefa8505a594bb1bcc9283ac9a1bd
+        id: 2951722508
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_12
+          ObjectType: 10
+          guid: 890fefa8505a594bb1bcc9283ac9a1bd
+      - name: seq_13
+        guid: 82b0ae4693097146ac30b1a7cb562b52
+        id: 2951722509
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_13
+          ObjectType: 10
+          guid: 82b0ae4693097146ac30b1a7cb562b52
+      - name: seq_14
+        guid: 64e565378568364393e8cdb15566fc04
+        id: 2951722506
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_14
+          ObjectType: 10
+          guid: 64e565378568364393e8cdb15566fc04
+      - name: seq_15
+        guid: a6f4b4b1a19a8c44ad22f60eae89b501
+        id: 2951722507
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer2_sequence
+          ObjectType: 11
+          guid: d16a68e5aa01ba4899881a6738536b55
+        - ElementName: seq_15
+          ObjectType: 10
+          guid: a6f4b4b1a19a8c44ad22f60eae89b501
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: layer3_instrument
+      guid: 3a49d69871fe2f4c9303b9b946f5d807
+      id: 1579504537
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer3_instrument
+        ObjectType: 11
+        guid: 3a49d69871fe2f4c9303b9b946f5d807
+      Path: Switches/Default Work Unit/layer3_instrument
+      values:
+      - name: e_piano
+        guid: 4e839a7256749d438f418042f85c160f
+        id: 3130365160
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_instrument
+          ObjectType: 11
+          guid: 3a49d69871fe2f4c9303b9b946f5d807
+        - ElementName: e_piano
+          ObjectType: 10
+          guid: 4e839a7256749d438f418042f85c160f
+      - name: glock
+        guid: 96a5e707c72cbd4da75711ecb5e10b16
+        id: 2851058149
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_instrument
+          ObjectType: 11
+          guid: 3a49d69871fe2f4c9303b9b946f5d807
+        - ElementName: glock
+          ObjectType: 10
+          guid: 96a5e707c72cbd4da75711ecb5e10b16
+      - name: marimba
+        guid: 368fd08fc10afa43996b1edaae9c1012
+        id: 3091781674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_instrument
+          ObjectType: 11
+          guid: 3a49d69871fe2f4c9303b9b946f5d807
+        - ElementName: marimba
+          ObjectType: 10
+          guid: 368fd08fc10afa43996b1edaae9c1012
+      - name: no_instrument
+        guid: 92b08f1d7936c44b9c5423908a318c42
+        id: 1758217356
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_instrument
+          ObjectType: 11
+          guid: 3a49d69871fe2f4c9303b9b946f5d807
+        - ElementName: no_instrument
+          ObjectType: 10
+          guid: 92b08f1d7936c44b9c5423908a318c42
+      - name: waterdrops
+        guid: 279e12ba944e2e4c9c1883ba600d448a
+        id: 3888338336
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_instrument
+          ObjectType: 11
+          guid: 3a49d69871fe2f4c9303b9b946f5d807
+        - ElementName: waterdrops
+          ObjectType: 10
+          guid: 279e12ba944e2e4c9c1883ba600d448a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: layer3_sequence
+      guid: ab25bb815c457c40a979f44ec080191d
+      id: 2432169145
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: layer3_sequence
+        ObjectType: 11
+        guid: ab25bb815c457c40a979f44ec080191d
+      Path: Switches/Default Work Unit/layer3_sequence
+      values:
+      - name: seq_01
+        guid: 0b96073378c7354c8a4d87a069a91a48
+        id: 2968500192
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_01
+          ObjectType: 10
+          guid: 0b96073378c7354c8a4d87a069a91a48
+      - name: seq_02
+        guid: 8012fdb0b01ddb4084b885fc75b4a4ab
+        id: 2968500195
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_02
+          ObjectType: 10
+          guid: 8012fdb0b01ddb4084b885fc75b4a4ab
+      - name: seq_03
+        guid: f5c04e0a0d96424a862439a71997bb1b
+        id: 2968500194
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_03
+          ObjectType: 10
+          guid: f5c04e0a0d96424a862439a71997bb1b
+      - name: seq_04
+        guid: 1bc23efcaf4b1341b12589ba4376f0ef
+        id: 2968500197
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_04
+          ObjectType: 10
+          guid: 1bc23efcaf4b1341b12589ba4376f0ef
+      - name: seq_05
+        guid: 99fe0c87f81cec478b082ede48837b89
+        id: 2968500196
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_05
+          ObjectType: 10
+          guid: 99fe0c87f81cec478b082ede48837b89
+      - name: seq_06
+        guid: 9daa65fdf5e3394ab3e417f3b7d3a949
+        id: 2968500199
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_06
+          ObjectType: 10
+          guid: 9daa65fdf5e3394ab3e417f3b7d3a949
+      - name: seq_07
+        guid: fd1af6dcc737824ba1482c032911206a
+        id: 2968500198
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_07
+          ObjectType: 10
+          guid: fd1af6dcc737824ba1482c032911206a
+      - name: seq_08
+        guid: 4a576470c0ae7c48a02cd1fe17802ec8
+        id: 2968500201
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_08
+          ObjectType: 10
+          guid: 4a576470c0ae7c48a02cd1fe17802ec8
+      - name: seq_09
+        guid: 1dbc0255e2411443abfe20b901bcb37e
+        id: 2968500200
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_09
+          ObjectType: 10
+          guid: 1dbc0255e2411443abfe20b901bcb37e
+      - name: seq_10
+        guid: 9edb1680cd4fdc47ae82da33cffa0bdf
+        id: 2951722510
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_10
+          ObjectType: 10
+          guid: 9edb1680cd4fdc47ae82da33cffa0bdf
+      - name: seq_11
+        guid: 3c45ee641fba2d4297f22078c90dc456
+        id: 2951722511
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_11
+          ObjectType: 10
+          guid: 3c45ee641fba2d4297f22078c90dc456
+      - name: seq_12
+        guid: 24cd13265a09214b9b32e312218b0e1d
+        id: 2951722508
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_12
+          ObjectType: 10
+          guid: 24cd13265a09214b9b32e312218b0e1d
+      - name: seq_13
+        guid: 0c9386cb97bf8f4aaf0251a51bc43808
+        id: 2951722509
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_13
+          ObjectType: 10
+          guid: 0c9386cb97bf8f4aaf0251a51bc43808
+      - name: seq_14
+        guid: 2ebeb8d7e49192488fefd549afaa4dc0
+        id: 2951722506
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_14
+          ObjectType: 10
+          guid: 2ebeb8d7e49192488fefd549afaa4dc0
+      - name: seq_15
+        guid: 98d5e98071894645b7d659974ebd359b
+        id: 2951722507
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: layer3_sequence
+          ObjectType: 11
+          guid: ab25bb815c457c40a979f44ec080191d
+        - ElementName: seq_15
+          ObjectType: 10
+          guid: 98d5e98071894645b7d659974ebd359b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: music_key
+      guid: 67470b025e6ed943ab1277f51b2fbac3
+      id: 2078097994
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d4935c74cb8624dafc929dca519a53a
+      - ElementName: music_key
+        ObjectType: 11
+        guid: 67470b025e6ed943ab1277f51b2fbac3
+      Path: Switches/Default Work Unit/music_key
+      values:
+      - name: key_A
+        guid: ec6d6d48eedd9245b9de852f685a66db
+        id: 3865414042
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_A
+          ObjectType: 10
+          guid: ec6d6d48eedd9245b9de852f685a66db
+      - name: key_Ab
+        guid: 5d1a205cd8df66468d18ac8aea49e92a
+        id: 1272421644
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_Ab
+          ObjectType: 10
+          guid: 5d1a205cd8df66468d18ac8aea49e92a
+      - name: key_B
+        guid: 81297441543070428c1468e19b37e529
+        id: 3865414041
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_B
+          ObjectType: 10
+          guid: 81297441543070428c1468e19b37e529
+      - name: key_Bb
+        guid: ac042e3ef3407044b2906942971bd810
+        id: 1255644089
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_Bb
+          ObjectType: 10
+          guid: ac042e3ef3407044b2906942971bd810
+      - name: key_C
+        guid: 7ef24146a559f44d8132d9260f111ade
+        id: 3865414040
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_C
+          ObjectType: 10
+          guid: 7ef24146a559f44d8132d9260f111ade
+      - name: key_Cs
+        guid: ee91976abd80c64cb8b36c036bb9be0e
+        id: 1238866491
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_Cs
+          ObjectType: 10
+          guid: ee91976abd80c64cb8b36c036bb9be0e
+      - name: key_D
+        guid: 77a7209bdff61e45931e420164a734c8
+        id: 3865414047
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_D
+          ObjectType: 10
+          guid: 77a7209bdff61e45931e420164a734c8
+      - name: key_E
+        guid: 3a17d1bf1328384caa53ab42115be625
+        id: 3865414046
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_E
+          ObjectType: 10
+          guid: 3a17d1bf1328384caa53ab42115be625
+      - name: key_Eb
+        guid: d628c6dd39ae0240bac1beed3fac33be
+        id: 1339532248
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_Eb
+          ObjectType: 10
+          guid: d628c6dd39ae0240bac1beed3fac33be
+      - name: key_empty
+        guid: fb776e20f013a2409c6bf7c2c629f11e
+        id: 2614129992
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_empty
+          ObjectType: 10
+          guid: fb776e20f013a2409c6bf7c2c629f11e
+      - name: key_F
+        guid: 5774ac542460b442ad32ab37e84ac1fa
+        id: 3865414045
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_F
+          ObjectType: 10
+          guid: 5774ac542460b442ad32ab37e84ac1fa
+      - name: key_Fs
+        guid: 75488458480a2f418ae67333dbc4e520
+        id: 1322754644
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_Fs
+          ObjectType: 10
+          guid: 75488458480a2f418ae67333dbc4e520
+      - name: key_G
+        guid: fbd281ff5892fc4a8e798b60cc87a8a6
+        id: 3865414044
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6d4935c74cb8624dafc929dca519a53a
+        - ElementName: music_key
+          ObjectType: 11
+          guid: 67470b025e6ed943ab1277f51b2fbac3
+        - ElementName: key_G
+          ObjectType: 10
+          guid: fbd281ff5892fc4a8e798b60cc87a8a6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -181,14 +1708,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7ac9e4b853d2ff42a50505692ec4ca2d
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 7ac9e4b853d2ff42a50505692ec4ca2d
     GuidInternal: 
-    m_lastTime: -8585260645324203939
+    m_lastTime: -8585260052296915084
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000d0000007500000076000000
-  AutoSyncSelection: 1
+  ExpandedFileSystemItemIds: 0200000003000000040000000b0000000c0000000d000000130000003f000000470000004f0000006100000062000000
+  ExpandedWaapiItemIds: 02000000
+  AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
